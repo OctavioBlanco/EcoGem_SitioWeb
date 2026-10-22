@@ -107,7 +107,7 @@ header {
     100% { transform: translateX(0%); }
 }
 
-/* --- SECCIONES DE INFORMACI”N --- */
+/* --- SECCIONES DE INFORMACI√ìN --- */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -155,7 +155,7 @@ header {
     text-align: justify;
 }
 
-/* --- SECCI”N DE VÕDEO MULTIMEDIA WEB --- */
+/* --- SECCI√ìN DE V√çDEO MULTIMEDIA WEB --- */
 .video-section {
     background-color: #ffffff;
     padding: 2rem;
@@ -249,7 +249,7 @@ header {
     background-color: #2d6a4f;
 }
 
-/* --- FOOTER / PIE DE P¡GINA --- */
+/* --- FOOTER / PIE DE P√ÅGINA --- */
 footer {
     background-color: #1b4332;
     color: #ffffff;
