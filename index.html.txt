@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoGem | Bisutería Fina y Gemas Naturales</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- NAVBAR (Menú de Navegación) -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">EcoGem</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="coleccion.html">Colección</a></li>
+                <li><a href="cuidados.html">Cuidados</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SLIDER (Carrusel de Imágenes) -->
+    <div class="slider-container">
+        <div class="slides">
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=1200&q=80" alt="Gemas Naturales">
+                <div class="slide-caption">
+                    <h3>Gemas Orgánicas Seleccionadas</h3>
+                    <p>Cuarzos, ágatas y jaspes de máxima pureza.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1200&q=80" alt="Diseño Artesanal">
+                <div class="slide-caption">
+                    <h3>Diseño Exclusivo y Artesanal</h3>
+                    <p>Cada pieza cuenta una historia única e irrepetible.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1611591475193-270830403f7a?auto=format&fit=crop&w=1200&q=80" alt="Bisutería Fina">
+                <div class="slide-caption">
+                    <h3>Elegancia Atemporal</h3>
+                    <p>Complementos diseñados para resaltar tu personalidad.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTENIDO PRINCIPAL: 4 SECCIONES DE INFORMACIÓN -->
+    <main class="container">
+
+        <!-- Sección 1 -->
+        <section class="section-info">
+            <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=600&q=80" alt="Origen de las gemas">
+            <div class="section-text">
+                <h2>Origen y Pureza Mineral</h2>
+                <p>Nuestras piezas son elaboradas con minerales auténticos extraídos de forma ética. Incorporamos amatistas, ágatas, cuarzos y jades seleccionados meticulosamente por su brillo, coloración natural y propiedades energéticas. Cada piedra es trabajada respetando su forma y tonalidad original.</p>
+            </div>
+        </section>
+
+        <!-- Sección 2 (Reverse) -->
+        <section class="section-info reverse">
+            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=600&q=80" alt="Proceso Artesanal">
+            <div class="section-text">
+                <h2>Confección 100% Artesanal</h2>
+                <p>Ensamblamos cada pulsera, collar y zarcillo de manera manual, empleando técnicas tradicionales de enhebrado y entorchado en hilos de alta resistencia y metales inoxidables. Este proceso cuidadoso garantiza piezas duraderas con acabados de alta calidad estética.</p>
+            </div>
+        </section>
+
+        <!-- Sección 3 -->
+        <section class="section-info">
+            <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=600&q=80" alt="Simbolismo y Energía">
+            <div class="section-text">
+                <h2>Simbolismo y Armonía</h2>
+                <p>Más allá de ser accesorios decorativos, las gemas naturales han sido valoradas históricamente por sus significados simbólicos. Desde la calma asociada a la amatista hasta la fuerza del jaspe rojo, nuestras colecciones integran elementos que aportan equilibrio y estilo a la vida cotidiana.</p>
+            </div>
+        </section>
+
+        <!-- Sección 4 (Reverse) -->
+        <section class="section-info reverse">
+            <img src="https://images.unsplash.com/photo-1611591475193-270830403f7a?auto=format&fit=crop&w=600&q=80" alt="Sostenibilidad">
+            <div class="section-text">
+                <h2>Compromiso con la Sostenibilidad</h2>
+                <p>Promovemos una moda consciente e intemporal. Al trabajar con insumos naturales de origen ético y empaques ecofriendly, reducimos el impacto ambiental y ofrecemos una alternativa duradera ante la producción masiva de accesorios sintéticos.</p>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE VÍDEO EN FORMATO WEB HTML5 -->
+        <section class="video-section">
+            <h2>Proceso de Elaboración en Vídeo</h2>
+            <p>Observa el proceso artesanal de selección, pulido y ensamblado de nuestras gemas minerales.</p>
+            <div class="video-wrapper">
+                <video controls poster="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80">
+                    <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
+                    Tu navegador no soporta el formato de vídeo web HTML5.
+                </video>
+            </div>
+        </section>
+
+        <!-- FORMULARIO DE CONTACTO CON VALIDACIÓN REQUIRED -->
+        <section class="contact-section">
+            <h2>Contáctanos</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre y Apellido:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Maria Perez" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu consulta aquí..." required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Enviar Mensaje</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- FOOTER INSTITUCIONAL -->
+    <footer>
+        <p class="footer-brand">UNIVERSIDAD BICENTENARIA DE ARAGUA</p>
+        <p>Vicerrectorado Académico | Decanato de Ingeniería</p>
+        <p>Desarrollado por: <strong>Roselita</strong> | C.I.: <strong>V-XX.XXX.XXX</strong></p>
+        <p>&copy; 2026 EcoGem. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
+
