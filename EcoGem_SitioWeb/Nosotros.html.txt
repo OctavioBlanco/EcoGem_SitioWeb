@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros | EcoGem</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">EcoGem</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html" class="active">Nosotros</a></li>
+                <li><a href="coleccion.html">Colección</a></li>
+                <li><a href="cuidados.html">Cuidados</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="section-info">
+            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&q=80" alt="Nuestra Mision">
+            <div class="section-text">
+                <h2>Nuestra Misión</h2>
+                <p>Crear piezas únicas de bisutería fina con gemas orgánicas, uniendo la belleza natural de la mineralogía con el arte del ensamblaje hecho a mano.</p>
+            </div>
+        </section>
+
+        <section class="section-info reverse">
+            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80" alt="Nuestra Vision">
+            <div class="section-text">
+                <h2>Nuestra Visión</h2>
+                <p>Posicionarnos como un referente en el diseño de accesorios artesanales sostenibles, promoviendo el valor del trabajo hecho a mano y el uso responsable de insumos naturales.</p>
+            </div>
+        </section>
+
+        <section class="section-info">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=600&q=80" alt="Nuestros Valores">
+            <div class="section-text">
+                <h2>Valores de Marca</h2>
+                <p>Autenticidad, excelencia artesanal, respeto ambiental y dedicación constante en el diseño de accesorios duraderos y atemporales.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer-brand">UNIVERSIDAD BICENTENARIA DE ARAGUA</p>
+        <p>Vicerrectorado Académico | Decanato de Ingeniería</p>
+        <p>Desarrollado por: <strong>Roselita</strong> | C.I.: <strong>V-XX.XXX.XXX</strong></p>
+        <p>&copy; 2026 EcoGem. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
