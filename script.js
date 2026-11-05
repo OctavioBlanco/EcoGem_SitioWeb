@@ -53,4 +53,3 @@ if (contactForm) {
         contactForm.reset();
     });
 }
-
