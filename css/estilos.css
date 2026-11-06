@@ -1,1 +1,4 @@
-
+/* Activa el desplazamiento suave en todo el documento */
+html {
+  scroll-behavior: smooth;
+}
