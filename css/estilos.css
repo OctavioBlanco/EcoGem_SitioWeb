@@ -1,4 +1,81 @@
-/* Activa el desplazamiento suave en todo el documento */
+/* ==========================================
+   1. CONFIGURACIÓN GENERAL Y SMOOTH SCROLLING
+   ========================================== */
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /* Desplazamiento suave entre secciones */
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 70px; /* Compensación para que el navbar fijo no tape el contenido */
+  background-color: #f8f9fa;
+  color: #333333;
+}
+
+/* ==========================================
+   2. ESTILOS DEL NAVBAR (MENÚ FIX-TOP)
+   ========================================== */
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #d4af37 !important; /* Tono dorado para EcoGem */
+}
+
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #d4af37 !important;
+}
+
+/* ==========================================
+   3. TRANSICIONES Y EFECTOS EN TÍTULOS
+   ========================================== */
+.titulo-seccion {
+  color: #2c3e50; /* Color base */
+  font-weight: 700;
+  display: inline-block;
+  transition: transform 0.4s ease-in-out, color 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+/* Efecto Hover: Cambia de color a dorado y se amplía de forma fluida */
+.titulo-seccion:hover {
+  color: #d4af37;
+  transform: scale(1.06);
+}
+
+/* ==========================================
+   4. EFECTOS Y TRANSICIONES EN IMÁGENES (MARCO)
+   ========================================== */
+.img-marco {
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+  border: 4px solid transparent;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Efecto Hover: Marco dorado, sombra y zoom sutil */
+.img-marco:hover {
+  transform: scale(1.04);
+  border-color: #d4af37;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* ==========================================
+   5. SECCIONES Y PIE DE PÁGINA
+   ========================================== */
+section {
+  padding: 60px 0;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 25px 0;
 }
